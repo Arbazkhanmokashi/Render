@@ -14,7 +14,7 @@ const register = async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 };
-
+//created authcontroller login
 const login = async (req, res) => {
   const { email, password } = req.body;
   try {
